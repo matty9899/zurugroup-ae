@@ -1,0 +1,440 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    width: 100%;
+}
+@media (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 576px;
+    }
+}
+@media (min-width: 811px) {
+    .container {
+        max-width: 811px;
+    }
+}
+@media (min-width: 1100px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+.static {
+    position: static;
+}
+.fixed {
+    position: fixed;
+}
+.relative {
+    position: relative;
+}
+.z-10 {
+    z-index: 10;
+}
+.my-3 {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.mb-6 {
+    margin-bottom: 48px;
+}
+.mb-9 {
+    margin-bottom: 72px;
+}
+.mb-10 {
+    margin-bottom: 80px;
+}
+.block {
+    display: block;
+}
+.flex {
+    display: flex;
+}
+.table {
+    display: table;
+}
+.hidden {
+    display: none;
+}
+.min-h-screen {
+    min-height: 100vh;
+}
+.w-30 {
+    width: 240px;
+}
+.w-full {
+    width: 100%;
+}
+.max-w-full {
+    max-width: 100%;
+}
+.flex-1 {
+    flex: 1 1 0%;
+}
+.transform {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
+}
+@keyframes ping {
+    75%,
+    to {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+@keyframes pulse {
+    50% {
+        opacity: 0.5;
+    }
+}
+@keyframes bounce {
+    0%,
+    to {
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        transform: translateY(-25%);
+    }
+    50% {
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        transform: none;
+    }
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-col-reverse {
+    flex-direction: column-reverse;
+}
+.items-end {
+    align-items: flex-end;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.gap-1 {
+    gap: 8px;
+}
+.gap-3 {
+    gap: 24px;
+}
+.gap-4 {
+    gap: 32px;
+}
+.border {
+    border-width: 1px;
+}
+.bg-black {
+    --tw-bg-opacity: 1;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+.bg-cover {
+    background-size: cover;
+}
+.px-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.py-2 {
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.py-3 {
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.py-4 {
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+.py-5 {
+    padding-bottom: 40px;
+}
+.pt-5,
+.py-5 {
+    padding-top: 40px;
+}
+.pt-6 {
+    padding-top: 48px;
+}
+.pt-9 {
+    padding-top: 72px;
+}
+.pr-2 {
+    padding-right: 16px;
+}
+.pr-3 {
+    padding-right: 24px;
+}
+.pb-2 {
+    padding-bottom: 16px;
+}
+.pb-3 {
+    padding-bottom: 24px;
+}
+.pb-4 {
+    padding-bottom: 32px;
+}
+.pb-5 {
+    padding-bottom: 40px;
+}
+.pb-6 {
+    padding-bottom: 48px;
+}
+.pl-2 {
+    padding-left: 16px;
+}
+.text-center {
+    text-align: center;
+}
+.text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.font-light {
+    font-weight: 300;
+}
+.font-bold {
+    font-weight: 700;
+}
+.leading-relaxed {
+    line-height: 1.625;
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.no-underline {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+*,
+:after,
+:before {
+    --tw-shadow: 0 0 transparent;
+    --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+}
+.transition {
+    transition-duration: 0.15s;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media (min-width: 576px) {
+    .sm\:block {
+        display: block;
+    }
+}
+@media (min-width: 811px) {
+    .md\:my-10 {
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+    .md\:w-1\/2 {
+        width: 50%;
+    }
+    .md\:flex-row {
+        flex-direction: row;
+    }
+    .md\:gap-6 {
+        gap: 48px;
+    }
+    .md\:gap-7 {
+        gap: 56px;
+    }
+    .md\:py-9 {
+        padding-bottom: 72px;
+    }
+    .md\:pt-9,
+    .md\:py-9 {
+        padding-top: 72px;
+    }
+    .md\:pb-4 {
+        padding-bottom: 32px;
+    }
+    .md\:pb-5 {
+        padding-bottom: 40px;
+    }
+    .md\:pb-8 {
+        padding-bottom: 64px;
+    }
+    .md\:pb-9 {
+        padding-bottom: 72px;
+    }
+}
+@media (min-width: 1100px) {
+    .lg\:block {
+        display: block;
+    }
+}
